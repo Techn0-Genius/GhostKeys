@@ -11,10 +11,10 @@ Author: **Techn0‑Genius**
 |---------|-------------|
 | **Interactive UI** | Rich‑based prompts, banners, progress spinners, and optional hyerspeed mode. |
 | **Extensive Variants** | Includes leet, alternate caps, reversed names, numeric ranges, special‑char + number combos, `ilove<car>` prefixes, custom keywords/patterns, partner/child/idol data, pet/company, birthdate parts. |
-| **Configurable** | `ghostkeys.cfg` lets you change special characters and leet mapping without touching code. |
+| **Configurable** | `GhostKeys.cfg` lets you change special characters and leet mapping without touching code. |
 | **Password Filtering** | Keeps only passwords that are 4‑32 chars long and contain at least one lowercase, uppercase, digit, and special character. |
 | **Output** | One password per line in a `.txt` file. File name defaults to the victim’s first name, or `target.txt` if none provided. |
-| **Hyerspeed Mode** | Prints each password on the same line, overwriting the previous one for a “hacker vibe” effect. |
+| **Hyerspeed Mode** | Prints each password |
 
 
 # GhostKeys – Password Candidates Generator
@@ -33,17 +33,14 @@ Author: **Techn0‑Genius**
 
 ```bash
 
+# Install dependencies
+
+pip install -r requirements.txt
+
 # Clone the repo
 
 git clone https://github.com/Techn0-Genius/GhostKeys
 cd GhostKeys
 python Ghostkeys.py
 
-# (Optional) Create a virtual environment
 
-python3 -m venv venv
-source venv/bin/activate
-
-# Install dependencies
-
-pip install -r requirements.txt
