@@ -10,7 +10,7 @@ GhostKeys – User Manual
 -------------------------
 # 2. Running the Tool   │
 -------------------------
-   python ghostkeys.py
+   python GhostKeys.py
 
 -------------------------
 # 3. Input Guidelines   │
