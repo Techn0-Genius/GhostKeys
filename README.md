@@ -33,6 +33,8 @@ Author: **Techn0‑Genius**
 
 ```bash
 
+# Install dependencies
+ pip install -r requirements.txt
 
 # Clone the repo
 
